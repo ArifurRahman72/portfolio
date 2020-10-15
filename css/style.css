@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: myriad-pro-condensed, sans-serif;
+}
+
+.main-navs {
+    background: linear-gradient(rgba(226, 151, 145, 0.58), rgba(226, 151, 145, 0.57)), url(assets/Screendesign_Red.png);
+    height: 550px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navslinks {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+.navslinks:hover {
+    color: #e74c3c;
+    
+}
+.head {
+    text-align: center;
+    margin-top: 180px;
+}
+.first-head {
+    color: white;
+}
+.first-tag {
+    color: white;
+}
+.button-one {
+    text-align: center;
+    margin-top: 175px;
+}
+.button-nam {
+    padding: 20px 10px 20px 10px;
+    color: white;
+}
+.raphael {
+    text-align: center;
+    margin-top: 80px;
+    padding: 50px;
+    
+}
+.raphael h2 {
+    color: #e74c3c;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.raphael p {
+    color: #95a5a6;
+}
+.sketching {
+    text-align: center;
+    padding: 30px;
+    
+}
+img-one {
+    display: block;
+    position: relative;
+}
+.overlay-one {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: blue;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.img-one:hover .overlay-one {
+    opacity: 1;
+}
+.view-button {
+    text-align: center;
+    
+}
+.view-btn {
+    padding: 30px 15px 30px 15px;
+}
+.footer-row {
+   text-align: center;
+    
+}
+.footer-kahini {
+    height: 160px;
+    background-color: #e74c3c;
+    
+}
+.copyright {
+    margin-top: 70px;
+    float: left;
+    margin-left: 60px;
+}
+.imprint {
+    float: right;
+    margin-top: 70px;
+    margin-right: 60px;
+}
